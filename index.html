@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<title>Nick Ruhrold</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="app.js"></script>
+<style>
+  body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+  body {font-size:16px;}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav id="sidebar" style="background-color:#112344; z-index:3;width:300px;font-weight:bold;"><br>
+  <h3 id="sidebar-title"><b>Nick Ruhrold</b></h3>
+  <img src="img/temp_img.jpg" style="width:100%; border-radius:50%;">
+  <div class="w3-bar-block">
+    <a href="#" onclick="test2()" class="nav-select">Home</a>
+    <a href="#about" onclick="test2()" class="nav-select">About</a>
+    <a href="#experience" onclick="test2()" class="nav-select">Experience</a>
+    <a href="#skills" onclick="test2()" class="nav-select">Skills</a>
+    <a href="#education" onclick="test2()" class="nav-select">Education</a>
+    <a href="#w" onclick="test2()" class="nav-select">Contact Me</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="topbar" style="background-color:#112344;">
+  <a href="javascript:void(0)" id="hamburger" style="background-color:#112344;" onclick="test()">☰</a>
+  <span id="topbar-title">Nick Ruhrold</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div id="overlay" onclick="test2()" style="cursor:pointer" title="close side menu"></div>
+
+<!-- !PAGE CONTENT! -->
+<div id="content" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="section-container" style="margin-top:80px">
+    <!--<h1 id="l"><b>Nick Ruhrold - Engineer</b></h1>-->
+    <h1 class="section-header" id="about"><b>About</b></h1>
+    <hr class="divider">
+    <div>
+      <p>Hello and welcome to my page! My name is Nick and I'm a young engineering professional currently working in the automation software industry. Here you can find some information about me, my background, and my goals. Feel free to get in contact with me for more, and thanks for your interest!</p>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="section-container" style="margin-top:75px">
+    <h1 class="section-header" id="experience"><b>Experience</b></h1>
+    <hr class="divider">
+    <p>Below are some of my recent pertinent positions:</p>
+  </div>
+
+  <!-- Experience 2 -->
+  <div class="section-pad">
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <h3><b>Q-Mation (Wonderware North)</b></h3>
+          <p style="opacity: 0.60">Application Consultant</p>
+          <p>January 2016 - Present</p>
+          <ul>
+            <li>Work in small agile teams to create custom manufacturing solutions for customers</li>
+            <li>Develop user interfaces in a .NET front-end development environment</li>
+            <li>Design and develop within MS SQL databases for industrial production data</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <h3><b>Alliant Technologies</b></h3>
+          <p style="opacity: 0.60">Controls Engineer</p>
+          <p>Summer 2015</p>
+          <ul>
+            <li>Develop applications for industrial control and data acquisition</li>
+            <li>Program and test logic controllers to interface with control software</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <h3><b>Bowen Center for Human Services</b></h3>
+          <p style="opacity: 0.60">IT Systems Intern/Specialist</p>
+          <p>Summer 2014</p>
+          <ul>
+            <li>Create and populate a database for IT assets across several locations</li>
+            <li>Work with team to develop and implement security standards for user technology</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="section-container" style="margin-top: 75px">
+    <h1 class="section-header" id="skills"><b>Skills</b></h1>
+    <hr class="divider">
+  </div>
+  <div class="section-pad">
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <p><i class="fa fa-code fa-fw icons1"></i><b>Languages</b></p>
+          <p>C#, T-SQL, HTML, CSS, JavaScript, Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <p><i class="fa fa-cogs fa-fw icons1"></i><b>Frameworks</b></p>
+          <p>.NET, ASP.NET, Node.js, Ionic, Unity Engine</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <p><i class="fa fa-database fa-fw icons1"></i><b>Databases</b></p>
+          <p>Microsoft SQL Server, NoSQL (MongoDB)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-pad">
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <p><i class="fa fa-users fa-fw icons1"></i><b>Methodologies</b></p>
+          <p>Test Driven Development, Agile/Scrum</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <p><i class="fa fa-code-fork fa-fw icons1"></i><b>Technologies</b></p>
+          <p>Visual Studio, Git, TFS, SVN</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-div">
+      <div class="card">
+        <div class="section-container">
+          <p><i class="fa fa-certificate fa-fw icons1"></i><b>Miscellaneous</b></p>
+          <p>SSRS / Visual Studio BI Tools, Wonderware products</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="section-container" style="margin-top:75px">
+    <h1 class="section-header" id="education"><b>Education</b></h1>
+    <hr class="divider">
+    <div class="ed-card">
+      <h3><b>Purdue University</b></h3>
+      <h6 class="dates"><i class="fa fa-calendar fa-fw icons1"></i>2011 - 2015</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+    <div class="ed-card">
+      <h3><b>Homestead High School</b></h3>
+      <h6 class="dates"><i class="fa fa-calendar fa-fw icons1"></i>2007 - 2011</h6>
+      <p>Master Degree</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="section-container" style="margin-top:75px">
+    <h1 class="section-header" id="about"><b>Goals</b></h1>
+    <hr class="divider">
+    <div>
+      <p>AAABBB</p>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<footer>
+  <i class="fa fa-facebook-official icons2"></i>
+  <i class="fa fa-instagram icons2"></i>
+  <i class="fa fa-snapchat icons2"></i>
+  <i class="fa fa-pinterest-p icons2"></i>
+  <i class="fa fa-twitter icons2"></i>
+  <i class="fa fa-linkedin icons2"></i>
+</footer>
+
+
+</body>
+</html>
