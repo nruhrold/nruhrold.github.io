@@ -52,7 +52,10 @@ hr {
 }
 
 img {
-    margin-bottom: -5px
+    margin-bottom: -5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 a {
     color: inherit
